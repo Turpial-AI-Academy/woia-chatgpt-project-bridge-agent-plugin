@@ -1,0 +1,39 @@
+{
+  "host_scenarios": [
+    {
+      "id": "native-transport-available",
+      "native_transport_available": true,
+      "expected_result": "REQUEST_DISPATCHED",
+      "receiver_creates_own_task": true,
+      "sender_authority_inherited": false,
+      "fallback_transport": null
+    },
+    {
+      "id": "native-transport-unavailable",
+      "native_transport_available": false,
+      "expected_result": "BRIDGE_UNAVAILABLE",
+      "receiver_creates_own_task": false,
+      "sender_authority_inherited": false,
+      "fallback_transport": null,
+      "external_communication_effect": false
+    },
+    {
+      "id": "authority-isolation",
+      "native_transport_available": true,
+      "expected_result": "REQUEST_DISPATCHED",
+      "receiver_creates_own_task": true,
+      "sender_authority_inherited": false,
+      "receiver_evaluates_own_authority": true,
+      "fallback_transport": null
+    },
+    {
+      "id": "minimum-data-reference",
+      "native_transport_available": true,
+      "expected_result": "REQUEST_DISPATCHED",
+      "receiver_creates_own_task": true,
+      "sender_authority_inherited": false,
+      "resource_record_copied": false,
+      "fallback_transport": null
+    }
+  ]
+}
