@@ -1,0 +1,25 @@
+{
+  "schema": "dev.woia.cross-department-response/v1",
+  "request_id": "req-marketing-sales-001",
+  "correlation_id": "corr-campaign-lead-001",
+  "receiver": {
+    "department": "sales",
+    "project_ref": "project:sales",
+    "task_ref": {
+      "kind": "Task",
+      "id": "task-sales-follow-up-001",
+      "revision": 1
+    }
+  },
+  "status": "completed",
+  "output_refs": [
+    {
+      "type": "evidence",
+      "id": "lead-follow-up-outcome-001"
+    }
+  ],
+  "evidence": [
+    "receipt:sales-follow-up-001"
+  ],
+  "blockers": []
+}
