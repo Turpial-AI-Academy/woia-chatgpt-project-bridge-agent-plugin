@@ -4,3 +4,4 @@
 
 - Initial WOIA ChatGPT/Codex Project Bridge adapter.
 - Add typed request/response mapping, correlation, minimum-data and receiver-authority boundaries.
+- Add S4 deterministic request/response and host-boundary acceptance fixtures; align `doctor` with the simplified archive-integrity contract.
