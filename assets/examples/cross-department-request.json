@@ -1,0 +1,40 @@
+{
+  "schema": "dev.woia.cross-department-request/v1",
+  "request_id": "req-marketing-sales-001",
+  "correlation_id": "corr-campaign-lead-001",
+  "origin": {
+    "department": "marketing",
+    "project_ref": "project:marketing",
+    "task_ref": {
+      "kind": "Task",
+      "id": "task-campaign-001",
+      "revision": 1
+    }
+  },
+  "target_department": "sales",
+  "requested_capability": "lead.follow-up",
+  "objective": "Contact the qualified lead and return outcome evidence.",
+  "context_refs": [],
+  "resource_refs": [
+    {
+      "schema": "dev.woia.shared-resource-reference/v1",
+      "resource_id": "customer:123",
+      "resource_type": "customer",
+      "system_of_record": "customer-data",
+      "classification": "confidential",
+      "provenance": {
+        "observed_at": "2026-10-03T17:00:00-03:00",
+        "source": "woia-customer-data"
+      },
+      "minimum_fields": [
+        "id"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change marketing campaign state."
+  ],
+  "priority": "normal",
+  "expected_output": "Follow-up outcome and next-action evidence",
+  "reply_to": "project:marketing"
+}

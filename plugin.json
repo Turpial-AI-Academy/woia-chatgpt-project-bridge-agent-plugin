@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "woia-chatgpt-project-bridge",
+  "version": "0.5.0",
+  "description": "WOIA harness adapter for typed cross-department Task requests and responses between ChatGPT/Codex Projects using the host's native project messaging/task capabilities.",
+  "author": {
+    "name": "Turpial AI Academy",
+    "url": "https://github.com/Turpial-AI-Academy"
+  },
+  "homepage": "https://github.com/Turpial-AI-Academy/woia-chatgpt-project-bridge-agent-plugin",
+  "repository": "https://github.com/Turpial-AI-Academy/woia-chatgpt-project-bridge-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "agent-plugin",
+    "woia",
+    "chatgpt",
+    "project-bridge",
+    "interdepartment"
+  ]
+}

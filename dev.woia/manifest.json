@@ -1,0 +1,23 @@
+{
+  "schema": "dev.woia.plugin-manifest/v1",
+  "version": "0.5.0",
+  "class": "harness-adapter",
+  "requires_plugins": [
+    {
+      "name": "woia-core",
+      "minimum_version": "0.5.0"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "woia.project-message.send",
+      "effect_class": "communication",
+      "skill": "project-bridge",
+      "host_requirement": "native-project-to-project-task-or-message"
+    }
+  ],
+  "contracts": [
+    "dev.woia.cross-department-request/v1",
+    "dev.woia.cross-department-response/v1"
+  ]
+}
