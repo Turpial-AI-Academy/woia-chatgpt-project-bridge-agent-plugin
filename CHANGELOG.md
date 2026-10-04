@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+**Unreleased main maintenance**
 
 - Remove unused private authoring surfaces and reconcile stale validation guidance while preserving the published bridge protocol/runtime boundary.
 - Reconcile maintenance documentation with container-engine-neutral clean-Linux parity.
