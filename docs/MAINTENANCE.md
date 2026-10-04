@@ -35,7 +35,10 @@ Docker parity uses a read-only source mount, a fresh Linux workspace, an exact p
 
 ## Portable payload changes
 
+Checksum generation is an optional diagnostic for repositories retaining `CHECKSUMS.sha256`; it is not a release prerequisite.
+
 ~~~text
+# If retaining the optional checksum manifest:
 pnpm run checksums:generate
 mise run ci:fast
 ~~~
