@@ -14,7 +14,7 @@ The canonical protocol lives in WOIA Core as dev.woia.cross-department-request/v
 
 ## Dependency
 
-woia-core >= 0.5.6
+woia-core >= 0.5.7
 
 ## Maintenance
 

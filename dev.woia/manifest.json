@@ -1,11 +1,11 @@
 {
   "schema": "dev.woia.plugin-manifest/v1",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "class": "harness-adapter",
   "requires_plugins": [
     {
       "name": "woia-core",
-      "minimum_version": "0.5.6"
+      "minimum_version": "0.5.7"
     }
   ],
   "capabilities": [
