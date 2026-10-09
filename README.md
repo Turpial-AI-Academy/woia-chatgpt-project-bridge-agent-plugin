@@ -14,4 +14,8 @@ The canonical protocol lives in WOIA Core as dev.woia.cross-department-request/v
 
 ## Dependency
 
-woia-core >= 0.5.0
+woia-core >= 0.5.6
+
+## Maintenance
+
+Edit only this canonical repository. Keep `plugin.json`, `package.json` and `dev.woia/manifest.json` versions aligned. From the canonical WOIA Ecosystem repository, run `mise run plugin:certify-thin --repo <absolute-plugin-repository>`, then use its release preparation/publication tasks. Install and update consumers from immutable published artifacts; keep Project personalization in overlays.
